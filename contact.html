@@ -8,22 +8,28 @@
 <body>
     <div>
         <header>
-            <nav>
+            <nav class = "navbar">
                 <ul>
-                    <li><a href="index.html">Xela Hotel</a></li>
-                    <li><a href="info.html">Info</a></li>
-                    <li><a href="rooms.html">Rooms</a></li>
-                    <li><a href="dining.html">Dining</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li class="navbar_item"><a href="index.html">Xela Hotel</a></li>
+                    <li class="navbar_item"><a href="info.html">Info</a></li>
+                    <li class="navbar_item"><a href="rooms.html">Rooms</a>
+                        <ul class="">
+                            <li class="navbar_item--itemrooms"><a href="rooms.html#picadilly">Picadilly</a></li>
+                            <li class="navbar_item--itemrooms"><a href="rooms.html#cambridge">Cambridge</a></li>
+                            <li class="navbar_item--itemrooms"><a href="rooms.html#westminster">Westminster</a></li>
+                        </ul>
+                    </li>
+                    <li class="navbar_item"><a href="dining.html">Dining</a></li>
+                    <li class="navbar_item  disable"><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
+        <main>
             <h1>Contact</h1>
+            <form action="">
                 <div>
-                    <label for="nombre">Name</label>
-                    <input id="nombre" name="nombre" />
-                </div>
-                <div>
+                    <label for="name">Name</label>
+                    <input id="name" name="name" />
                     <label for="surname">Surname</label>
                     <input id="surname" name="surname" />
                 </div>
@@ -36,22 +42,22 @@
                     </select>
                 </div>
                 <div>
-                    <label >Customer?</label>
-                    <label >Yes </label>
+                    <legend>Customer?</legend>
+                    <label for="1">Yes  </label>
                     <input type="radio" name="customer" value="1" checked>
-                    <label >No </label>
+                    <label for="2">No  </label>
                     <input type="radio" name="customer" value="0" >
                 </div>
-                <button>Enviar</button>
-                <div>Cancelar</div>
-        <footer>
-            <div>
-                <ul>
-                    <li><a href="https://twitter.com"><img  src="assets/social/twitter.png" alt="icon for twitter"></a></li>
-                    <li><a href="http://www.facebook.com"><img  src="assets/social/facebook.png" alt="icon for facebook"></a></li>
-                    <li><a href="http://www.youtube.com"><img  src="assets/social/youtube.png" alt="icon for youtube"></a></li>
-                </ul>
-            </div>
+                <button >Enviar</button>
+                <button>Cancelar</button>
+            </form>
+        </main>
+        <footer id="socialmedia">
+            <ul>
+                <li><a href="https://twitter.com"><img  src="assets/social/twitter.png" alt="icon for twitter"></a></li>
+                <li><a href="http://www.facebook.com"><img src="assets/social/facebook.png" alt="icon for facebook"></a></li>
+                <li><a href="http://www.youtube.com"><img  src="assets/social/youtube.png" alt="icon for youtube"></a></li>
+            </ul>
         </footer>
     </div>
 </body>
