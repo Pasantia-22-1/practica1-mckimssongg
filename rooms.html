@@ -7,19 +7,25 @@
 <body>
     <div>
         <header>
-            <nav>
+            <nav class = "navbar">
                 <ul>
-                    <li><a href="index.html">Xela Hotel</a></li>
-                    <li><a href="info.html">Info</a></li>
-                    <li><a href="rooms.html">Rooms</a></li>
-                    <li><a href="dining.html">Dining</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li class="navbar_item"><a href="index.html">Xela Hotel</a></li>
+                    <li class="navbar_item"><a href="info.html">Info</a></li>
+                    <li class="navbar_item  disable"><a href="rooms.html">Rooms</a>
+                        <ul class="">
+                            <li class="navbar_item--itemrooms"><a href="rooms.html#picadilly">Picadilly</a></li>
+                            <li class="navbar_item--itemrooms"><a href="rooms.html#cambridge">Cambridge</a></li>
+                            <li class="navbar_item--itemrooms"><a href="rooms.html#westminster">Westminster</a></li>
+                        </ul>
+                    </li>
+                    <li class="navbar_item"><a href="dining.html">Dining</a></li>
+                    <li class="navbar_item"><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-                <h1>Guest Rooms</h1>
-                <p>Our guest rooms feature sumptuous classic furnishings that evoke visions of Xela’s rich and long-standing tradition of royalty. While our rooms are decked out in classic design, they each have a modern flair, and contain all the modern comforts expected in today’s luxury hotels. We’ve named our rooms for the notable public squares and circuses around which the West End is laid&nbsp;out.</p>
+            <h1>Guest Rooms</h1>
+            <p>Our guest rooms feature sumptuous classic furnishings that evoke visions of Xela’s rich and long-standing tradition of royalty. While our rooms are decked out in classic design, they each have a modern flair, and contain all the modern comforts expected in today’s luxury hotels. We’ve named our rooms for the notable public squares and circuses around which the West End is laid&nbsp;out.</p>
             <article>
                 <section id="picadilly">
                     <h1>Piccadilly</h1>
@@ -53,7 +59,6 @@
                 </section>
             </article>
         </main>
-
         <footer>
             <div id="socialmedia">
                 <ul>
