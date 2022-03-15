@@ -6,7 +6,7 @@
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <div>
+    <div class="body">
         <header class="header">
             <nav class = "nav">
                 <ul class="nav__menu">
@@ -28,28 +28,33 @@
             <h1 class="main__titulo">Contact</h1>
             <form action="" class="form">
                 <div class="form_content">
-                    <label for="name">Name</label>
-                    <input id="name" name="name" />
-                    <label for="surname">Surname</label>
-                    <input id="surname" name="surname" />
+                    <div class="form_content__input">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" />
+                    </div>
+                    <div class="form_content__input">
+                        <label for="surname">Surname</label>
+                        <input id="surname" name="surname" />
+                    </div>
+                    <div class="form_content__input">
+                        <label for="rooms">Rooms</label>
+                        <select id="rooms" name="rooms">
+                            <option value="1">Picadilly</option>
+                            <option value="2">Cambridge</option>
+                            <option value="3">Westminster</option>
+                        </select>
+                    </div>
+                    <div class="form_content__input">
+                        <legend>Customer?
+                            <label for="1">Yes  </label>
+                            <input type="radio" name="customer" value="1" checked>
+                            <label for="2">No  </label>
+                            <input type="radio" name="customer" value="0" >
+                        </legend>
+                    </div>
                 </div>
-                <div class="form_content">
-                    <label for="rooms">Rooms</label>
-                    <select id="rooms" name="rooms">
-                        <option value="1">Picadilly</option>
-                        <option value="2">Cambridge</option>
-                        <option value="3">Westminster</option>
-                    </select>
-                </div>
-                <div class="form_content">
-                    <legend>Customer?</legend>
-                    <label for="1">Yes  </label>
-                    <input type="radio" name="customer" value="1" checked>
-                    <label for="2">No  </label>
-                    <input type="radio" name="customer" value="0" >
-                </div>
-                <button clas="form__button" >Enviar</button>
-                <button clas="form__button" >Cancelar</button>
+                <button class="form__button" >Enviar</button>
+                <button class="form__button" >Cancelar</button>
             </form>
         </main>
         <footer class="footer">
