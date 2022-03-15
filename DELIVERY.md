@@ -29,3 +29,4 @@ Enlace:
 - Utilizar la metodologia BEM, ya que hace tiempo no la usaba.
 ### Validación de Código:
 [Validación de codigo](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&checkerrorpages=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fmckimssongg.github.io%2Fpractica1%2F#l13c134"validation")
+
